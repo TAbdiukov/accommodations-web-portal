@@ -1,0 +1,58 @@
+#work diary
+Week-2
+
+- Brainstorming with teammates
+- Did requirement analysis of all three topics
+- Finalized the project topic with team
+- Discussed with tutor to understand the reuirements of our topics
+- Met with team on friday to discuss development technologies and implementation plan
+
+
+Week-3
+
+- Analyzed the topic and wrote Project Objectives for the project proposal
+- After descussing with team created user stories and epics for the corresponding stories
+- Carried out breakdown of the epics into tasks and substasks and transcribed into project proposal
+- Created risk management matrix for project
+- Figured out sprint schedule after discussing with team
+- Reviewed the proposal and discussed with mentor for suggestions.
+- Carried out required changes suggested by tutor
+- Submitted proposal
+
+Week 4
+
+- Figured out fields for Accommodation advertising module 
+- Devided into tasks
+- Assigned tasks to teammates
+
+Week 5
+
+-- Developed model.py for accessing db
+--- created select and select all methods
+--- created user ad posting module
+
+week 6 
+
+-- made some fixes i posting ad module
+-- created methods for basic search
+
+Week 7
+--- finished the search module backend
+--- advance search is still remaing though
+
+wee 8
+
+--- created user registration backend
+--- created login backend
+--- populated tables
+
+week 9
+ --- created advance serach methods 
+--- fixed issues in search module
+
+
+week 10
+--- worked on booking ad
+---- and user profile module
+--- integrated recomendation system
+

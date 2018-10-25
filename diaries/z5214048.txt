@@ -1,0 +1,72 @@
+Week 1
+	I attended the first (and as it turns out, the only) COMP3900 lecture,  and as a result mentally prepared myself for the kind of wor expected out of this subject.
+
+Week 2
+	I participated in,
+		* formation of the group, meeting up new members
+		* meeting up our tutor
+		* brief brainstorming activity of the different project ideas while taking into account various aspects of ideas
+		* brief and rough project's labour division process (i.e., choosing who does what)
+		* planning on future sessions of working on project together
+		
+		
+Week 3
+	I participated in,
+		* further and final consideration of various ideas, involving more thorough and critical analysis and considerations
+		* writing my part of the the final proposal, by checking our ideas against the currently available and popular solutions on the market and consulting with the tutor during the Friday session
+	I also joined our group's Trello, Slack and other pages
+	# In week 3, our fifth group member was forced to leave, forcing us to reconsider our options and labour division
+		
+Week 4
+	Me and my group were,
+		* analysing our past experiences and thinking what available modules can be reused for our project (such as Flask templates done before)
+		* final labour division analysis, with me being assigned to be responsible for the data used in our project
+				
+Week 5
+	* I created the skeleton (i.e. relations and fields only, but not the data) database with all the objects necessary for the project covered. VIEWs, and "ON DELETE" are not set up yet
+	
+Week 6
+	* Waiting for backend and frontend to begin communicating; necessary major changes for the project were done by me. 
+	* Due to the minor issues in our communication process and misunderstandings, I was asked to create thorough descriptions of tables and their entries along with an ERD diagram, which was halfway dome by the end of the week
+	
+Week 7
+	* My initial database skeleton proposal was rejected by other members due to overcomplexity for our project needs and "database overnormalization" (that is, having too heavily separated relations when they may be just put together, and having surrogate keys when superkeys should allegedly be applied). To prevent further escalation, I agreed to switch to the different database design created in accordance with the other project members' needs and requests
+	
+Week 8
+	* New and final database design was created
+	* Beginning late yet necessary data mining for the project, starting from publicly and legally (!) available either made up or real email addresses, names, passwords, and other parameters necessary for the project
+
+Week 9
+	* Partial data fillup, with the easy-to-find entries readily available online
+	* Emailing various data agencies asking for the free sample of various data for the study purposes
+	* Learning and reeducating myself about how to effectively work with data in SQL (and SQLite in particular)
+	
+Mid-semester break
+	* Unfortunately, no agencies agreed to provide with the hotels data for either a free or affordable price, looking for the alternatives
+	* Further (re)edicating myself about the databases
+	* As as part of what's above, I decided to scrape data from our rival of AirBNB. They policies allow to use their data for educational purposes, and I began creating a Python quick&dirty data scraper. By the end of the break, it was ~90% done.
+	* Filling in miscellaneous data to the database and impriving communiation between the group members while having a long-delayed break
+	
+Week 10
+	* Scrapper 100% done, and although it is quick and dirty and ineffecient, it did its job week with ~20K of AirBNB real accommodation options scrapped for NSW alone
+	* Data "washing" - using the techniques leart over the break, removal of scrapped options that are not so attractive, that is, missing a picture, a title of something else
+	* After speaking to the tutor, I decided to pick the random 1000 of accommodation options from the more than 20 thousand NSW accommodation options scrapped previously
+	* Unfortunately AirBNB does not publicly store the unit numbers, hence we decided to just make them up for the needs of the project
+	* Additionally, instead of using the real passwords likely obtained from the hacking activity, I replaced them with the completely random made-up passwords
+
+Week 11
+	* Our head-master noticed we used the real email addresses in our database, so we replaced them with the obviously-nonexistent ones to avoid people's discomfort over the use of their email addresses in our project
+	* Filling in over miscellaneous yet important data for the previously-empty tables
+	* Making sure all the tables are filled in in the database, and that backend properly communicates with backend and vice versa (i.e., for example, that there is nothing misspelt on either side causing issues)
+	* Launching currently empty AWS Ubuntu instance 
+	* Looking for the opportunities for having our project actually run online, hence searching for cheap DNS entering services
+	
+Week 12
+	* Wrapping things up
+	* ERD creation for the database, from the old 'analogue' paper notes
+	* Making sure AWS runs our project as intended
+	* Found the free DNS service called Freenom, so I registered two domains to serve our project - 
+		virtuosic42.tk
+		aquabnb.tk
+		
+		(note: .tk country code was chosen for the realism purposes, since it is owned by Tokelau, one of the islands belonging to the lovely New Zealand)

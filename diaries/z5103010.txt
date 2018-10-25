@@ -1,0 +1,58 @@
+Work Diary
+
+Week2(7.31-8.7):
+I created trello group from our 4 members and cs9900.
+And read the old and new pdf of project3, and highlight the important points. 
+I prepared for the front end by downloading sublime first. 
+I tried to write background and edited front page of "the proposal".
+
+Week3(8.7-8.14):
+I listed the critical analysis of existing alternatives which teacher provide to us in the last minutes to our proposal. 
+I writed contents and when others changed proposal, kept the same page as shown. 
+I contributed some schedule idea to our team. 
+Friday afternoon, I checked the proposal with whole team together, and asked tutor for some advice, and changed again.
+
+Week4(8.14-8.21):
+I constructed the base frame of homepage. I am reviewing html,css and javascript.
+I have coded simple front page for simple searching. 
+The photos which used by me, all coming from my personal photo, so there is no copyright or reference problem.
+
+Week5(8.21-8.28):
+I continued codeing frontend with html5,css, and a little bit javascript and jquery.
+I finished the first version of "accommodation post" part and simple sign up and sign in.
+As well as a basic accommodation list page.
+
+Week6(8.28-9.3):
+List the details about search and advanced search.
+
+Week7(9.3-9.10):
+I added "added show result" in homepage.
+
+Week8(9.10-9.17)
+Did some researches about detail pages around different websites.
+Downloaded some mini cute icons.
+I writted the detail page, and slightly changed homepage.
+
+Week9(9.17-9.24):
+Changed footer into more simple version.
+
+Week10(10.1-10.8):
+Found (20+) free source images from unsplash.
+I added 'show review' part in the detail page. 
+Uploaded a draft "setting" page of normal user.
+Changed normal user "setting" page according to database schema.
+I wrote admin panel, it includes admin profile, control access right, ban users, validate credential, inspect reviews.
+
+Week11(10.8-10.15):
+Created a "final report" in google doc and already share the link to our team mates.
+I listed the requirements+outline of final report and insert a draft system structure diagram into final report.
+I created a outline of ppt for next week in "prezi" which is introduced by Youran.
+I inserted homepage "order by", show rating in search result, save button, host info and hosting/saved in setting page.
+I changed homepage's child into infant, and two radio box.
+I deletec the title in detail page.
+I created message page, edit page, review page.
+
+Week12(10.15-10.21):
+I wrote user guideline part in the final report as well as system structure diagram
+
+
