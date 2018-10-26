@@ -1,0 +1,54 @@
+# work diary
+Week-2
+
+- Meeting with team
+- Discussed and chose project
+- Analysis about viability in tech perspective
+- Team meeting on Friday
+
+
+Week-3
+
+- Discussed item break down with team
+- Wrote part user stories together with Priyanka
+- Worked on backend of current sprint (Adding post)
+- Consulted with tutor about our proposal
+- Submitted proposal
+- Researched all viable recommendation systems
+
+Week 4
+
+- Researched on machine learning
+- Discussed with team online about our current sprint
+
+Week 5
+
+- Continued my work on Machine learning, decided on Stochastic gradient descent over simple gradient descent.
+- Waiting for database side
+
+Week 6-7
+
+- research work
+- Decided on matrix factorization over other latent feature extraction method
+
+Week 8
+
+- Worked on recommendation system
+- Research on cold start methods 
+
+Week9-10
+- Worked on login model 
+
+Week 11
+
+- worked on cold start part 
+- Worked together with Priyanka in putting backend together
+- modified presentation slides
+
+Week 12
+
+- Wrote Challenge part of final report
+- Formatted referencing on report
+
+
+
