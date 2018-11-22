@@ -89,7 +89,10 @@ def services():
 
 def get_data(req):
     new = {}
-
+    k = []
+    for i in range(1,7):
+        if 'pic'+str(i) not in req.keys():
+            k.append('pic'+str(i))
     new['facilities'] = [int(i) for i in request.form.getlist('facilities')]
     new['amenities'] = [int(i) for i in request.form.getlist('amenities')]
     new['rule'] = [int(i) for i in request.form.getlist('rule')]
@@ -130,10 +133,13 @@ def get_data(req):
     models.insertUser('accom_amenities (property_id, amenities_list)',"'{}','{}'".format(id,str(tuple(sorted(new['amenities']) ))))
     models.insertUser('accom_facilities (property_id,facilities_list)', "'{}','{}'".format(id, str(tuple(sorted(new['facilities'])))))
     models.insertUser('location_details (property_id,suburb,post_code, street)', "'{}','{}','{}','{}'".format(id,new['suburb'] ,new['postcode'],new['address']))
+    
+    for i in k:
+        file = request.files[i]
+        f = os.path.join(app.config['UPLOAD_FOLDER'] + '/room_pics', file.filename)
+        models.insertUser('accom_photos (property_id, accom_photo)', "'{}','{}'".format(id, file.filename))
+        file.save(f)
 
-    pic = ['bath_image_2.jpg', 'bed_image_17.jpg', 'dining_image_2.jpg','entrance_image_2.jpg']
-    for i in pic:
-        models.insertUser('accom_photos (property_id, accom_photo)', "'{}','{}'".format(id, i))
     return id
 
 
@@ -444,4 +450,4 @@ def logout():
     return render_template('signin.html')
 if __name__ == '__main__':
     app.secret_key = os.urandom(12)
-    app.run(debug = "ON", port='5000', host='0.0.0.0')
+    app.run(debug = "ON", host='0.0.0.0', port='5000' )
