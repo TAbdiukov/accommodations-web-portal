@@ -14,7 +14,7 @@ numpy==1.15.2
 profanity==1.1
 python-dateutil==2.7.3
 pytz==2018.5
-setuptools==39.1.0
+setuptools==65.5.1
 six==1.11.0
 sqlite3server==0.1.3
 wtf==0.1	
